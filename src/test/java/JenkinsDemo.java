@@ -5,7 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by burakergoren
  * Sample junit test code to integrate by
@@ -18,7 +18,7 @@ public class JenkinsDemo
     @Before
     public void setUp()
     {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
         driver.get(Base_Url);
     }
 
