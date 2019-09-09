@@ -18,7 +18,7 @@ public class JenkinsDemo
     @Before
     public void setUp()
     {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.get(Base_Url);
     }
 
